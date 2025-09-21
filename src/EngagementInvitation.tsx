@@ -11,7 +11,7 @@ export default function EngagementInvitation() {
         }}
       >
         <h1 className="text-2xl font-bold mb-2 text-rose-700">
-          You're Invited! this is dev
+          You're Invited! this is dev with workflow
         </h1>
         <h2 className="text-lg font-semibold mb-4 text-gray-800">
           Raju &amp; [Partner]
