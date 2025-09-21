@@ -1,5 +1,18 @@
 {
   "projects": {
     "default": "engagementinvitation-1d16a"
-  }
+  },
+  "targets": {
+    "engagementinvitation-1d16a": {
+      "hosting": {
+        "dev": [
+          "engagement-invitation-dev"
+        ],
+        "main": [
+          "eventinvite"
+        ]
+      }
+    }
+  },
+  "etags": {}
 }

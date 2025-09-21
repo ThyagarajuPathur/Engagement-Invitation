@@ -1,15 +1,14 @@
 {
   "hosting": [
     {
-      "target": "production",
       "public": "dist",
+      "site": "engagement-invitation-dev",
       "ignore": ["firebase.json", "**/.*", "**/node_modules/**"],
       "rewrites": [{ "source": "**", "destination": "/index.html" }]
     },
     {
-      "target": "dev",
       "public": "dist",
-      "site": "engagement-invitation-dev",
+      "site": "eventinvite",
       "ignore": ["firebase.json", "**/.*", "**/node_modules/**"],
       "rewrites": [{ "source": "**", "destination": "/index.html" }]
     }
